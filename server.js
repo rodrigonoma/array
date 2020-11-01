@@ -6,6 +6,8 @@ app.get('/',(req,res)=>{
     res.status(200).send('ok');
 });
 
+console.log('teste');
+
 app.listen(3000,()=>{
     console.log('Server is runnig at port 3000');
 });
