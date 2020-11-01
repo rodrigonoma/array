@@ -8,6 +8,7 @@ app.get('/',(req,res)=>{
 
 console.log('teste');
 console.log('teste1');
+console.log('teste2');
 
 app.listen(3000,()=>{
     console.log('Server is runnig at port 3000');
